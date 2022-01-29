@@ -1,0 +1,26 @@
+body{
+    padding: 50px;
+}
+
+button{
+    background-color: green;
+    border: 2px solid green;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: red;
+
+}
+button:focus{
+    background-color: black;
+}
+.button:disabled{
+    cursor: not-allowed;
+    
+}
